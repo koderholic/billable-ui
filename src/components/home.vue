@@ -8,7 +8,7 @@
           <p>Enter Company Name :</p>
           <input type="text" v-model="companyName" class="w-100 bg-white-50">
           <div class="relative">
-            <p>Upload CSV File :</p>
+            <p>Upload Employee Timetable <small> <i> Note : (must be a CSV File)</i></small> :</p>
             <input type="file" @change="uploadFile" class="w-100 bg-white-50">
           </div>
         </div>
